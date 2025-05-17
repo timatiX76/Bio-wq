@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Фоновое видео + Музыка</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="start-screen">Click to enter...</div>
+
+  <video id="bg-video" loop playsinline muted>
+    <source src="background.mp4" type="video/mp4">
+    Ваш браузер не поддерживает видео.
+  </video>
+
+  <div class="content" id="main-content">
+    <div class="card">
+      <img src="ter.jpg" alt="Avatar" class="avatar">
+      <h2 class="nickname">CopticX</h2>
+      <p class="description">Пизда я альфа самец</p>
+
+      <div class="card-buttons">
+        <a href="https://discord.gg/dP6t3Kq8" target="_blank" class="icon-button">
+          <img src="discord.png" alt="Discord">
+        </a>
+        <a href="https://t.me/ymersd" target="_blank" class="icon-button">
+          <img src="telegram.png" alt="Telegram">
+        </a>
+      </div>
+      
+      <div class="card-notification">
+        <img src="views.png" alt="icon">
+        <div class="bubble">623</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
